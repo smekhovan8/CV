@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <!-- Site made with Mobirise Website Builder v4.9.3, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v4.9.3, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+  <meta name="description" content="">
+  <title>Артемий Смехов :: Проекты :: Страница 3</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/gallery/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+</head>
+<body>
+  <section class="menu cid-rjxy1Qs84p" once="menu" id="menu2-1f">
+
+    
+
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center collapsed bg-color transparent">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                
+                
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown nav-right navbar-nav-top-padding" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black display-4" href="index.html"><span class="mbri-home mbr-iconfont mbr-iconfont-btn"></span>Главная</a></li><li class="nav-item">
+                    <a class="nav-link link text-black display-4" href="portfolio1.html"><span class="mbri-briefcase mbr-iconfont mbr-iconfont-btn"></span>Проекты</a>
+                </li><li class="nav-item">
+                    <a class="nav-link link text-black display-4" href="index.html#content4-1i"><span class="mbri-user mbr-iconfont mbr-iconfont-btn"></span>
+                        Контакты</a>
+                </li></ul>
+            
+        </div>
+    </nav>
+</section>
+
+<section class="engine"><a href="https://mobirise.info/t">amp templates</a></section><section class="mbr-section content4 cid-rjySh7qlVJ" id="content4-1m">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-1">ПРОЕКТЫ :: СТРАНИЦА 3</h2>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section content4 cid-riPE6bBQQn" id="content4-1g">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2"><font color="#465052">Планировщик движения</font></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><font color="#879a9f"><em>ООО "Эйдос-Робототехника", июль 2015</em></font></h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-riPE708nCG" id="content1-1h">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-12"><p>&nbsp; &nbsp; При программировании промышленных манипуляторов часто используются команды на перемещение типа point-to-point (PtP). Этот тип перемещения является наиболее быстрым и энергоэффективным, т.к. каждая из осей робота переводится из текущего положения непосредственно в целевое положение. Однако, ввиду нелинейности отображения обобщённых координат робота в пространственные координаты, его фланец при этом может двигаться по сложной криволинейной траектории. Спрогнозировать эту траекторию "на глаз" практически невозможно. Возникает опасность, что робот в процессе перемещения может столкнуться с окружающими объектами. Целью этой работы было создание алгоритма для планирования безопасных траектории перемещения.
+</p><p>&nbsp; &nbsp; Алгоритм планирования должен моделировать PtP-перемещение робота из текущей точки пространства в целевую с некоторым шагом, и, в случае возникновения коллизии, должен каким-либо образом строить обходной путь. Вариантов построения такого обходного пути может быть множество.
+</p><p>&nbsp; &nbsp; Мной был разработан и реализован простой алгоритм, использующий случайным образом генерируемый граф. Каждая вершина графа является точкой в n-мерном пространстве, где n — число степеней свободы манипулятора. Для такого графа необходимо промоделировать PtP-перемещение между каждой парой вершин и, в соответствии с результатом, составить матрицу смежности вершин. Если при перемещении из вершины i в вершину j возникает коллизия, то вес ребра ij принимается равным бесконечности. Иначе за вес ребра принимается евклидово расстояние между этими вершинами. После того, как была рассчитана матрица смежности, можно использовать любой классический метод (например, алгоритм Дейкстры), для поиска кратчайшего пути на этом графе.
+</p><p>&nbsp; &nbsp; Понятно, что кратчайший путь на случайном графе не будет кратчайшим из всех возможных путей перемещения робота. Однако, алгоритм является достаточно простым в реализации, обладает хорошим быстродействием и должен гарантировать отсутствие коллизий при перемещении манипулятора.
+</p><p>&nbsp; &nbsp; Прототип алгоритма был реализован и отлажен в MATLAB, после чего был перенесён на C++. На анимации и рисунках ниже показана демонстрация его работы. Для простоты все физические объекты были приближены прямоугольными параллелепипедами (далее OBB — Oriented Bounding Box). Жёлтый OBB имитирует фланец робота. Все прочие звенья робота для простоты не учитываются. Красные OBB описывают окружающие препятствия. Маркеры с цифрами — это последовательность точек, между которыми должен перемещаться фланец. Таким образом, жёлтый OBB должен переместиться от точки 1 к 2, от 2 к 3 и т.д., не касаясь при этом красных OBB. На рисунках все этапы перемещения показаны по-отдельности. Из них хорошо видно, что траектория перемещения не пересекается ни с одним из препятствий.
+</p><p><strong>Инструменты разработки: C++, MATLAB, Visual Studio.</strong></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-gallery mbr-slider-carousel cid-riPE86OuiU" id="gallery1-1i">
+
+    
+
+    <div class="container">
+        <div><!-- Filter --><!-- Gallery --><div class="mbr-gallery-row"><div class="mbr-gallery-layout-default"><div><div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1i" data-slide-to="0" data-toggle="modal"><img src="assets/images/d-animation1-1.gif" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1i" data-slide-to="1" data-toggle="modal"><img src="assets/images/d-image1-1-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1i" data-slide-to="2" data-toggle="modal"><img src="assets/images/d-image2-1-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1i" data-slide-to="3" data-toggle="modal"><img src="assets/images/d-image3-1-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1i" data-slide-to="4" data-toggle="modal"><img src="assets/images/d-image4-1-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1i" data-slide-to="5" data-toggle="modal"><img src="assets/images/d-image5-1-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1i" data-slide-to="6" data-toggle="modal"><img src="assets/images/d-image6-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div></div></div><div class="clearfix"></div></div></div><!-- Lightbox --><div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-1i"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><div class="carousel-inner"><div class="carousel-item"><img src="assets/images/d-animation1-1.gif" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image1-1.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image2-1.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image3-1.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image4-1.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image5-1.png" alt="" title=""></div><div class="carousel-item active"><img src="assets/images/d-image6.png" alt="" title=""></div></div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery1-1i"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery1-1i"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a></div></div></div></div></div>
+    </div>
+
+</section>
+
+<section class="mbr-section content4 cid-rjAFaOtdE0" id="content4-1n">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2">Кинематическая модель гексапода</h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><font color="#000000"><em>ООО "Эйдос-Робототехника", июнь 2015</em></font></h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-riOluELfos" id="content1-18">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-12"><p>&nbsp; &nbsp; Гексапод (Hexapod) — это шестиосевой робот с параллельной кинематической схемой. По принципу работы он похож на перевёрнутую платформу Стюарта (показана на рисунке ниже). В отличие от последней, у гексапода неподвижным является верхнее основание, а под ним на шести штангах крепится подвижная платформа. Каждая из шести штанг может независимо менять свою длину, за счёт чего платформе придаётся нужное положение и ориентация. Целью этой работы была реализация алгоритмов расчёта прямой и обратной кинематики, необходимых для управления роботом.
+</p><p>&nbsp; &nbsp; Расчёт прямой кинематики позволяет по известным обобщённым координатам робота (в случае гексапода это длины штанг) вычислить координаты и ориентацию его платформы. Обратная кинематика, наоборот, по известному положению платформы позволяет вычислить длины всех штанг.
+</p><p>&nbsp; &nbsp; В этом проекте мной была разработана библиотека с соответствующими методами, а также приложение, наглядно демонстрирующее их работу. Интерфейс приложения был написан на C# в среде MS Visual Studio. Для визуализации использовалась библиотека OpenTK. DLL библиотека с методами расчёта кинематики была реализована на C++.
+</p><p>&nbsp; &nbsp; На рисунках ниже показана демонстрация работы приложения. Оно позволяет с помощью ползунков задавать различные положения платформы. При нажатии на кнопку &lt;Сохранить точку&gt; происходит расчёт и сохранение соответствующих длин штанг. При этом используется обратная кинематика. Далее, при нажатии на кнопку &lt;Воспроизвести&gt; происходит последовательная линейная интерполяция между всеми сохранёнными наборами длин штанг, и платформа перемещается в сохранённые точки. При этом используется прямая кинематика.
+</p><p><strong>Инструменты разработки: C++, C#, MATLAB, OpenTK, Visual Studio.</strong></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-gallery mbr-slider-carousel cid-riOFqpBOMv" id="gallery1-18">
+
+    
+
+    <div class="container">
+        <div><!-- Filter --><!-- Gallery --><div class="mbr-gallery-row"><div class="mbr-gallery-layout-default"><div><div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-18" data-slide-to="0" data-toggle="modal"><img src="assets/images/d-image2-2-600x600.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-18" data-slide-to="1" data-toggle="modal"><img src="assets/images/d-animation1-2.gif" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-18" data-slide-to="2" data-toggle="modal"><img src="assets/images/d-animation2-2.gif" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Awesome"><div href="#lb-gallery1-18" data-slide-to="3" data-toggle="modal"><img src="assets/images/d-image1-2-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div></div></div><div class="clearfix"></div></div></div><!-- Lightbox --><div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-18"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><div class="carousel-inner"><div class="carousel-item"><img src="assets/images/d-image2-2.png" alt="" title=""></div><div class="carousel-item active"><img src="assets/images/d-animation1-2.gif" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-animation2-2.gif" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image1-2.png" alt="" title=""></div></div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery1-18"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery1-18"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a></div></div></div></div></div>
+    </div>
+
+</section>
+
+<section class="mbr-section content4 cid-riODJXR9sA" id="content4-14">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2"><font color="#465052">Аппроксимация данных на неравномерной сетке</font></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><font color="#879a9f"><em>ПАО "КАМАЗ", Научно-технический центр, май 2015</em></font></h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-riOE0x5GeU" id="content1-15">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-12"><p>&nbsp; &nbsp; Газовые двигатели современных грузовых автомобилей оснащаются электронными блоками управления, которые считывают показания с множества различных датчиков и, на основе их значений, контролируют работу свечей зажигания, дроссельной заслонки и т.д. В памяти этих блоков хранится огромное число различных параметров, от которых зависит реакция блока на конкретные показания датчиков. Среди этих параметров есть как скалярные величины, так и таблицы значений, приближающие некоторые функции от двух переменных. Эти таблицы можно получить только опытным путём, проводя измерения на реальном двигателе. Более того, их значения могут отличаться для разных моделей двигателей.
+</p><p>&nbsp; &nbsp; Внутренние алгоритмы блока управления требуют, чтобы табличные функции были заданы в строго определённых узловых точках (x, y) на равномерной сетке. Однако на практике в процессе работы двигателя параметры x и y постоянно "плавают", т.к. на них оказывают влияние множество других переменных факторов, и определение значений некоторой табличной величины f(x, y) в нужных точках оказывается практически невозможным. Кроме того, регистрируемые значения подвержены шуму и выбросам. В связи с этим гораздо проще найти значения функции в большом количестве различных точек по принципу "как получится", а затем, аппроксимировав этот набор точек некоторой поверхностью, найти значения в нужных точках равномерной сетки. Целью этой работы было создание удобной утилиты, позволяющей решить данную проблему.
+</p><p>&nbsp; &nbsp; Разработанная мной программа позволяет находить значения табличной функции двух переменных в узлах равномерной сетки на основе известного набора точек. Приложение позволяет считывать данные из файла формата csv (может быть как нерегулярный набор точек (облако точек), так и набор значений, определённых в фиксированных узлах). Есть возможность выбора метода интерполяции и степени сглаживания. Точки с максимальными отклонениями обозначены крупными маркерами. Эти точки можно выделить и удалить из набора, после чего аппроксимация будет выполнена повторно.
+</p><p>&nbsp; &nbsp; Программа написана на C# и для аппроксимации данных использует методы библиотеки AlgLib. Для визуализации поверхности используется библиотека OpenTK.
+</p><p>&nbsp; &nbsp; Исходные файлы проекта доступны в <a href="https://github.com/smekhovan8/IGI">репозитории GitHub</a>.
+</p><p><strong>Инструменты разработки: C#, AlgLib, OpenTK, Visual Studio.</strong></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-gallery mbr-slider-carousel cid-riOHY3HBG4" id="gallery1-1a">
+
+    
+
+    <div class="container">
+        <div><!-- Filter --><!-- Gallery --><div class="mbr-gallery-row"><div class="mbr-gallery-layout-default"><div><div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="0" data-toggle="modal"><img src="assets/images/d-image1-3-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="1" data-toggle="modal"><img src="assets/images/d-image2-3-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="2" data-toggle="modal"><img src="assets/images/d-image6-1-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="3" data-toggle="modal"><img src="assets/images/d-image3-2-800x430.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="4" data-toggle="modal"><img src="assets/images/d-image5-2-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1a" data-slide-to="5" data-toggle="modal"><img src="assets/images/d-image4-2-800x438.png" alt="" title=""><span class="icon-focus"></span></div></div></div></div><div class="clearfix"></div></div></div><!-- Lightbox --><div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-1a"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><div class="carousel-inner"><div class="carousel-item active"><img src="assets/images/d-image1-3.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image2-3.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image6-1.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image3-2.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image5-2.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image4-2.png" alt="" title=""></div></div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery1-1a"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery1-1a"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a></div></div></div></div></div>
+    </div>
+
+</section>
+
+<section class="mbr-section content4 cid-riOEg31POp" id="content4-16">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2"><font color="#465052">Построение многоосных графиков</font></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><font color="#879a9f"><em>ПАО "КАМАЗ", Научно-технический центр, январь 2015</em></font></h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-riOEoWaCH1" id="content1-17">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-12"><p>&nbsp; &nbsp; При создании отчётов по испытаниям газовых двигателей возникает необходимость в одновременном представлении на одной странице графиков нескольких различных величин. Эти величины могут иметь сильно отличающиеся диапазоны значений (порядка 10 у одной величины и порядка 1000 у другой), из-за чего их наглядное размещение на одной оси ординат затруднено. Целью этой работы было создание приложения, позволяющего строить и выводить на печать многоосные графики.
+</p><p>&nbsp; &nbsp; Ниже представлены изображения разработанного мной приложения, реализующего требуемый функционал. Приложение обладает гибкими настройками внешнего вида, расположения и группировки графиков.
+</p><p>&nbsp; &nbsp; Исходные файлы проекта доступны в <a href="https://github.com/smekhovan8/MAPper">репозитории GitHub</a>.
+</p><p><strong>Инструменты разработки: Delphi, RAD Studio.</strong></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-gallery mbr-slider-carousel cid-riPCxKjwVJ" id="gallery1-1b">
+
+    
+
+    <div class="container">
+        <div><!-- Filter --><!-- Gallery --><div class="mbr-gallery-row"><div class="mbr-gallery-layout-default"><div><div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1b" data-slide-to="0" data-toggle="modal"><img src="assets/images/d-image1-4-800x438.png" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Главное окно демонстрирует многодокументный интерфейс</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1b" data-slide-to="1" data-toggle="modal"><img src="assets/images/d-image2-4-800x480.png" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Окно настройки и группировки графиков</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1b" data-slide-to="2" data-toggle="modal"><img src="assets/images/d-image3-3-301x236.png" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Окно с информацией о программе</span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1b" data-slide-to="3" data-toggle="modal"><img src="assets/images/d-image4-3-794x1123.png" alt="" title=""><span class="icon-focus"></span><span class="mbr-gallery-title mbr-fonts-style display-7">Вывод страницы на печать</span></div></div></div></div><div class="clearfix"></div></div></div><!-- Lightbox --><div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-1b"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><div class="carousel-inner"><div class="carousel-item"><img src="assets/images/d-image1-4.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image2-4.png" alt="" title=""></div><div class="carousel-item active"><img src="assets/images/d-image3-3.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image4-3.png" alt="" title=""></div></div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery1-1b"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery1-1b"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a></div></div></div></div></div>
+    </div>
+
+</section>
+
+<section class="mbr-section content4 cid-riPDxJTI83" id="content4-1d">
+
+    
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="title col-12 col-md-8">
+                <h2 class="align-center pb-3 mbr-fonts-style display-2"><font color="#465052">Управление скоростью грузового автомобиля</font></h2>
+                <h3 class="mbr-section-subtitle align-center mbr-light mbr-fonts-style display-5"><font color="#879a9f"><em>Дипломная работа, май 2013</em></font></h3>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-section article content1 cid-riPDyU9NS3" id="content1-1e">
+    
+     
+
+    <div class="container">
+        <div class="media-container-row">
+            <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-12"><p>&nbsp; &nbsp; Целью моей дипломной работы была разработка алгоритмов функционирования адаптивной бортовой системы управления скоростью грузового автомобиля на основе карты дорожного профиля для оптимизации показателей топливной экономичности.
+</p><p>&nbsp; &nbsp; Обычный круиз-контроль в автомобиле использует обратную связь по скорости и ПИ-регулятор, который вырабатывает управляющие сигналы акселератора и тормоза. При этом он старается поддерживать постоянную опорную скорость, задаваемую водителем, не учитывая дорожную обстановку. Скорость снижается при подъёме транспортного средства на холм и затем вновь увеличивается до опорной скорости. Движение на опорной скорости происходит до начала спуска, затем скорость увеличивается под действием силы тяжести, и спуск продолжается с использованием ретардера. При этом происходит перерасход топлива, поскольку транспортное средство начинает спуск на опорной скорости и затем использует торможение ретардером.
+</p><p>&nbsp; &nbsp; Предложенный в этой работе алгоритм управления является как бы надстройкой над обычным круиз-контролем. Адаптивный круиз-контроль включает в себя блоки цифровой модели автомобиля, дорожной карты и системы вычисления опорных скоростей. Он использует информацию об угле наклона трассы впереди автомобиля и ограничения на величину скорости, устанавливаемые водителем, для выработки опорной скорости. В основу системы управления закладываются простые правила, согласно которым автомобиль должен замедляться перед спуском и ускоряться перед подъёмом. В первом случае такая стратегия управления даёт уменьшение расхода топлива, во втором — позволяет сократить общее время в пути за счёт увеличения средней скорости.
+</p><p>&nbsp; &nbsp; Для реализации цифровой модели автомобиля использовались уравнения прямолинейного движения материальной точки и объёмного расхода топлива. Дорожная карта была представлена в виде зависимости угла наклона дороги от перемещения. Для удобства работы карта аппроксимируется кусочно-линейной функцией. Таким образом можно считать, что вся дорога состоит из последовательности прямолинейных сегментов. Система управления скоростью изменяет опорную скорость движения в зависимости от угла наклона сегмента впереди автомобиля и протяжённости этого сегмента. Так как способ вычисления опорной скорости в зависимости от угла наклона и протяженности сегмента впереди автомобиля весьма неоднозначен, было принято решение использовать для этой цели нечёткую экспертную систему. Эта система разрабатывалась в редакторе Fuzzy Logic Toolbox пакета MATLAB. В приложении на C++ был реализован метод, позволяющий считывать файлы, созданные в Fuzzy Logic Toolbox, и использовать полученную систему нечёткого вывода.
+</p><p>&nbsp; &nbsp; Готовое приложение имеет простой консольный интерфейс. На рисунках ниже показан пример его работы. Пользователь вводит название файла, в котором хранится дорожная карта, и указывает участок трассы (начальная и конечная точки), для которого он хочет произвести расчёт. Программа выводит время в пути и расход топлива (литров на 100км) для обычной и для адаптивной системы круиз-контроля. Как видно, последняя даёт заметную экономию. На графиках можно видеть, как меняется скорость движения и расход топлива на протяжении всего пути.
+</p><p>&nbsp; &nbsp; Исходные файлы проекта доступны в <a href="https://github.com/smekhovan8/AdaptiveCruiseControl">репозитории GitHub</a>.
+</p><p><strong>Инструменты разработки: C++, MATLAB, Visual Studio.</strong></p></div>
+        </div>
+    </div>
+</section>
+
+<section class="mbr-gallery mbr-slider-carousel cid-riPDzYSZde" id="gallery1-1f">
+
+    
+
+    <div class="container">
+        <div><!-- Filter --><!-- Gallery --><div class="mbr-gallery-row"><div class="mbr-gallery-layout-default"><div><div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1f" data-slide-to="0" data-toggle="modal"><img src="assets/images/d-image1-5-668x331.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1f" data-slide-to="1" data-toggle="modal"><img src="assets/images/d-image2-5-668x331.png" alt="" title=""><span class="icon-focus"></span></div></div><div class="mbr-gallery-item mbr-gallery-item--p2" data-video-url="false" data-tags="Animated"><div href="#lb-gallery1-1f" data-slide-to="2" data-toggle="modal"><img src="assets/images/d-image3-4-800x400.png" alt="" title=""><span class="icon-focus"></span></div></div></div></div><div class="clearfix"></div></div></div><!-- Lightbox --><div data-app-prevent-settings="" class="mbr-slider modal fade carousel slide" tabindex="-1" data-keyboard="true" data-interval="false" id="lb-gallery1-1f"><div class="modal-dialog"><div class="modal-content"><div class="modal-body"><div class="carousel-inner"><div class="carousel-item active"><img src="assets/images/d-image1-5.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image2-5.png" alt="" title=""></div><div class="carousel-item"><img src="assets/images/d-image3-4.png" alt="" title=""></div></div><a class="carousel-control carousel-control-prev" role="button" data-slide="prev" href="#lb-gallery1-1f"><span class="mbri-left mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control carousel-control-next" role="button" data-slide="next" href="#lb-gallery1-1f"><span class="mbri-right mbr-iconfont" aria-hidden="true"></span><span class="sr-only">Next</span></a><a class="close" href="#" role="button" data-dismiss="modal"><span class="sr-only">Close</span></a></div></div></div></div></div>
+    </div>
+
+</section>
+
+<section class="mbr-section content8 cid-riPGuVHRk2" id="content8-1k">
+
+    
+
+    <div class="container">
+        <div class="media-container-row title">
+            <div class="col-12 col-md-8">
+                <div class="mbr-section-btn align-center"><a class="btn btn-black-outline display-7" href="portfolio2.html">&lt;&lt; На страницу 2</a>
+                    <a class="btn btn-black-outline display-7" href="portfolio4.html">На страницу 4 &gt;&gt;</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section once="" class="cid-riPFDj8u4L" id="footer6-1j">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="col-12">
+                <p class="mbr-text mb-0 mbr-fonts-style display-7">Сайт создан с помощью бесплатного конструктора <a href="https://mobirise.com/">Mobirise</a>.<br>© Copyright 2019 Артемий Смехов</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/vimeoplayer/jquery.mb.vimeo_player.js"></script>
+  <script src="assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js"></script>
+  <script src="assets/masonry/masonry.pkgd.min.js"></script>
+  <script src="assets/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/gallery/player.min.js"></script>
+  <script src="assets/gallery/script.js"></script>
+  <script src="assets/slidervideo/script.js"></script>
+  
+  
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+  </body>
+</html>
